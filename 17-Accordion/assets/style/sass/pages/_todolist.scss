@@ -1,0 +1,129 @@
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    margin-left: 50px;
+
+    h1{
+        font-size: 50px;
+        font-weight: 500;
+        // text-align: center;
+    }
+
+    #form{
+        display: flex;
+        // margin-left: 150px;
+        margin-top: 50px;
+        gap: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    #taskinput{
+        background-color: #0D6EFD;
+        padding: 10px;
+        width: 500px;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+    }
+
+    #taskinput::placeholder{
+        color: rgb(208, 206, 206);
+    }
+
+    #newtasksubmit{
+        color: #0D6EFD;
+        font-size: 25px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    #newtasksubmit:hover{
+        opacity: 0.5;
+    }
+
+    #newtasksubmit:active{
+        opacity: 0.3;
+    }
+}
+
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    margin-left: 50px;
+
+    .tasklist{
+
+        h2{
+            padding-bottom: 30px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        #tasks{
+
+            .task{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #2f3f58;
+                padding: 10px;
+                border-radius: 15px;
+                width: 800px;
+                margin-bottom: 20px;
+
+
+                .content{
+
+                    .text{
+                        color: white;
+                        font-size: 20px;
+                        display: block;
+                        transition: 0.4s;
+                    }
+
+                    .text:not(:read-only){
+                        color: rgb(71, 4, 4);
+                    }
+                }
+
+                .actions{
+                    display: flex;
+                    gap: 20px;
+
+                    button{
+                        cursor: pointer;
+                        font-size: 20px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        transition: 0.4s;
+                    }
+
+                    button:hover{
+                        opacity: 0.5;
+                    }
+                
+                    button:active{
+                        opacity: 0.3;
+                    }
+
+                    .edit{
+                        color: green;
+                    }
+
+                    .delete{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}

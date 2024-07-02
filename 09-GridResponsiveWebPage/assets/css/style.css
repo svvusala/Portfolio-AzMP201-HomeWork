@@ -1,0 +1,527 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:"Open Sans";
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+    background-color: whitesmoke;
+    font-family:"Open Sans";
+}
+
+.fa-regular.fa-clock {
+    color: #AB7442;
+    padding-left: 15px;
+    font-size: medium;
+    padding-right: 5px;
+}
+
+.fa-solid.fa-location-dot {
+    color: #AB7442;
+    padding-left: 50px;
+    padding-right: 5px;
+    font-size: medium;
+}
+
+.fa-solid.fa-phone {
+    color: #AB7442;
+    font-size: medium;
+    padding-right: 5px;
+}
+
+.icons a {
+    color: #AB7442;
+    background-color: white;
+    padding: 8px;
+    font-size: medium;
+}
+
+.icons {
+    padding-right: 30px;
+}
+
+.toptext {
+    color: #555555;
+    font-size: large;
+}
+
+.rightside {
+    display: flex;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    font-family:"Open Sans";
+    background-color: white;
+}
+
+.navtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    gap: 30px;
+    padding-left: 300px;
+}
+
+.fa-solid.fa-bars {
+    display: none;
+}
+
+.navtext a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.navtext a:hover {
+    color: #AB7442;
+}
+
+.dropdown button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.dropdown a{
+    display: block;
+}
+
+.dropdown content {
+    position: absolute;
+    background-color: #AB7442;
+    display: none;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+
+#home {
+    color: #AB7442;
+}
+
+#woody {
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #AB7442;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.getaquote {
+    background-color:#AB7442;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.getaquote a{
+    color: white;
+    text-decoration: none;
+}
+.getaquote{
+    transition: background-color 1s;
+}
+
+.getaquote:hover {
+    background-color: #ab7542bd;
+}
+
+
+#gaq {
+    color: white;
+}
+
+
+.fa-solid.fa-arrow-right {
+    padding-left: 10px;
+}
+
+.imgntext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    position: relative;
+    background-color: black;
+}
+
+.imgntext::before{
+    background-image: url(/09-GridResponsiveWebPage/assets/images/carousel-3.jpg);
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.5;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3x solid black;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-family:"Open Sans";
+    font-size: larger;
+    position: absolute;
+
+}
+
+.welcometxt {
+    padding: 15px 0;
+}
+
+.lorem {
+    padding: 15px 0;
+}
+
+.mainbtn {
+    background: none;
+    border: none;
+    padding: 15px;
+    color: white;
+    background-color:#AB7442;
+    cursor: pointer;
+}
+
+.mainbtn{
+    transition: background-color 1s;
+}
+
+.mainbtn:hover {
+    background-color: #ab7542d5;
+}
+
+.mainbutton {
+    background: none;
+    border: none;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1000px;
+    height: 222px;
+    margin: auto;
+}
+
+.firstsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 222px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    gap: 150px;
+    padding-top: 50px;
+}
+
+.fa-solid.fa-user-check {
+    background-color: #F5F5F5;
+    padding: 10px;
+    color: #AB7442;
+}
+
+.fa-solid.fa-check {
+    background-color: #F5F5F5;
+    padding: 10px;
+    color: #AB7442;
+}
+
+.fa-solid.fa-compass-drafting {
+    background-color: #F5F5F5;
+    padding: 10px;
+    color: #AB7442;
+}
+
+.fa-solid.fa-headphones {
+    background-color: #F5F5F5;
+    padding: 10px;
+    color: #AB7442;
+}
+
+.num {
+    color:#F5F5F5 ;
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.aboutus {
+    display: grid;
+    background-color: whitesmoke;
+
+}
+
+.allaboutus {
+    height: 533px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    overflow-x: hidden;
+}
+
+.content h3{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.content p{
+    padding: 20px 0;
+    font-size: large;
+}
+
+.bar span{
+    padding-right: 15px;
+    font-size: large;
+}
+
+.allaboutus .imgg {
+    overflow: hidden;
+}
+
+.allaboutus .imgg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.allaboutus .content {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+}
+
+.bar i {
+    gap: 50px;
+    background-color: white;
+    padding: 15px;
+    color: #AB7442;
+}
+
+.bar{
+    padding: 20px 0;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    background-color: #AB7442;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: background-color 1s;
+
+}
+
+.content a:hover{
+    background-color: #ab7542c7;
+}
+
+.maincontainer {
+    margin: auto;
+}
+
+.ourservices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 30px 0;
+    width: 1296px;
+}
+
+.ourservices h2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.imgbox {
+    margin-top: 50px;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.item img:hover{
+    transform: scale(1.1);
+}
+
+.item {
+    border: 5px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item h3 {
+    margin: 20px 0 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.item p {
+    margin-bottom: 15px;
+}
+
+.item a{
+    text-decoration: none;
+    color: #AB7442;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.why{
+    overflow: hidden;
+    height: 517px;
+    display: flex;
+    justify-content: start;
+    background-color: whitesmoke;
+}
+.whychooseus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 65px auto;
+}
+
+.whytext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whychooseusimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.quotes {
+    width: 1000px;
+    margin: auto;
+}
+
+.freequotes .imgg {
+    overflow: hidden;
+}
+
+.freequotes .imgg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.freequotes .freecontent {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+}
+
+
+.freecontent a {
+    text-decoration: none;
+    color: white;
+    background-color: #AB7442;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: background-color 1s;
+
+}
+
+.freecontent a:hover{
+    background-color: #ab7542c7;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .top {
+        display: none;
+    }
+    .navtext {
+        display: none;
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+    }
+
+    .firstsection{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .allaboutus {
+        grid-template-columns: 1fr;
+        
+    }
+    .imgbox {
+        margin-top: 50px;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: 400px 400px;
+    }
+  }
+
+@media only screen and (max-width: 560px) {
+    .top {
+        display: none;
+    }
+    .navtext{
+        display: none;
+    }
+
+    .getaquote{
+        display: none;
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+    }
+
+    .firstsection{
+        grid-template-columns: 1fr;
+    }
+    .imgbox {
+        margin-top: 50px;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: 400px;
+    }
+  }

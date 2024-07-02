@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  background-color: #2b2d42;
+  color: white;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.homepage a {
+  text-decoration: none;
+  color: white;
+}
+.homepage .cart {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 30px;
+}
+.homepage .cart .caramount {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 223px);
+  gap: 30px;
+  justify-content: center;
+}
+.shop .items {
+  border: 2px solid #212529;
+  border-radius: 4px;
+  padding: 15px;
+}
+.shop .items img {
+  width: 100%;
+  height: 250px;
+}
+.shop .items .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.shop .items .details h5 {
+  color: red;
+}
+.shop .items .details .price-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shop .items .details .price-quantity .buttons {
+  display: flex;
+  gap: 10px;
+}
+.shop .items .details .price-quantity .buttons .minus {
+  color: red;
+}
+.shop .items .details .price-quantity .buttons .plus {
+  color: green;
+}
+
+.label {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.homebtn {
+  background-color: #212529;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */

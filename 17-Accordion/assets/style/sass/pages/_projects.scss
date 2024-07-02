@@ -1,0 +1,126 @@
+#projects {
+    width: 100%;
+
+    .container{
+        max-width: 1240px;
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+
+        .texts{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3{
+                margin-top: 80px;
+                font-family:"Archivo";
+                font-size: 14px;
+                color: #FE7235;
+            }
+
+            h2{
+                font-family:"Archivo";
+                font-size: 40px;
+                color: #242E42;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            p{
+                font-family: "Muli";
+                font-size: 22px;
+                color: #5B617C;
+                text-align: center;
+                margin-bottom: 80px;
+            }
+        }
+
+        .griditems{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .picandtxt{
+
+                .zen{
+                    font-family: "Archivo";
+                    font-size: 28px;
+                    color: #242E42;
+                }
+
+                p{
+                    font-family: "Muli";
+                    font-size: 16px;
+                    color: #5E7997;
+                }
+
+                .sol{
+                    font-family: "Archivo";
+                    font-size: 16px;
+                    color: #FE7235;
+                }
+
+                .accordion{
+                    max-width: 380px;
+
+                    .accordionitems{
+                        background-color: white;
+                        color: #000000;
+                        margin: 10px 0;
+
+                        .accordionitemsheader{
+                            padding: 20px;
+                            border-top: 1px solid rgba(128, 128, 128, 0.327);
+                            font-family: "Archivo";
+                            font-size: 20px;
+                            cursor: pointer;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .accordionitemsheader::after{
+                            content: "\002B";
+                            // font-family: "Font Awesome 6 Free";
+                            font-size: 30px;
+                            position: absolute;
+                            right: 10px;
+                        }
+
+                        .accordionitemsheader.active::after{
+                            content: "\002D";
+                        }
+
+                        .accordionitemsbody{
+                            max-height: 0;
+                            overflow: hidden;
+                            transition: max-height 0.2s ease-out;
+                            // display: none;
+
+                            .content{
+                                padding:  15px;
+                            }
+                        }
+
+                        .accordionitemsheader.active + .accordionitemsbody{
+                            max-height: 300px;
+                        }
+                    }
+
+                    .accordionitemsheader:hover{
+                        background-color: #0077FF;
+                    }
+                }
+
+
+            }
+        }
+
+        .button{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+    }
+}

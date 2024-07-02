@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/19-BasketFavoriteWithLocalStorage/assets/fonts/Roboto-Medium.ttf);
+}
+.nav {
+  background-color: #1b1b1c;
+  width: 100%;
+}
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+.nav .container .homePage h1 {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+.nav .container .basketandfav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  color: white;
+}
+.nav .container a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .mainHomePage {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.container .mainHomePage .prodCard {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+}
+.container .mainHomePage .prodImage {
+  width: 80px;
+}
+
+.container .detailPage .prodCard {
+  border: 1px solid black;
+  width: 800px;
+  padding: 15px;
+  margin-top: 30px;
+}
+.container .detailPage .prodCard .prodImage {
+  width: 200px;
+}
+
+.container .prodImage {
+  width: 100px;
+}/*# sourceMappingURL=main.css.map */

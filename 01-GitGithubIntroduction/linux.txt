@@ -1,0 +1,58 @@
+1. ls- olduğunuz directorydə hansı faylların olduğunu göstərir. Gizli(hidden) faylları göstərmək üçün isə ls -a commandından istifadə edirik.Bütün faylları göstərmək üçün ls -R commandından istifadə edirik. Fayllar haqqında ətraflı məlumat almaq üçün ls -al commandından istifadə edirik.
+
+2. cd- directory-ə getmək üçün istifadə edirik. cd .. üst folderə keçid etmək üçün istifadə olunur
+cd — əvvəlki directoryə getmək üçün istifadə olunur.
+
+3. mkdir — yeni bir directory yaratmaq istədiyimiz zaman bu komandadan istifadə edirik.
+
+4. rmdir — boş bir directoryni silmək üçün istifadə edirik.
+
+5. rm — fayl və directoryni silmək üçün istifadə edirik. rm -r komandası sadəcə directoryni silir. rm -rf dediyimiz zaman həm directoryni həmdə içərisindəki faylları silirik.
+
+6. touch — yeni bir fayl yaratmaq üçün istifadə edirik.
+
+7. man - istifadə etmək istədiyimiz komandaların necə istifadə olunacağı haqqında məlumat verir.
+
+8. locate - faylımızın hara da yerləşdiyini tapmağımız üçün kömək edir.
+
+9. cp — faylları kopyalamaq üçün istiadə olunur. 2 parametr qəbul edir: copyası alınacaq ünvan , kopyalanacaq ünvanş cp -r folder kopyalamaq üçün istifadə olunur. 
+
+10. mv — faylı ünvandan bir yerdən başqa ünvana daşımaq üçün istifadə olunur. Faylın adın dəyişmək istdədikdə də bu komandadan istifadə edə bilərik. cp komandası kimi bu da iki parametr qəbul edir.
+
+11. cat — əsasən mətin olmaq üzərə bəzi dataları 1 fayla yazdırmağa kömək edir.
+“echo hello, my name is alok >> new.txt” burada >> simvolları mətinə yazdırmaq işini görür. 
+
+12. grep- bəlli fayldakı mətin içərində axtarış etməyə kömək edir.
+
+13. echo -  terminala mətin yazdırmaq üçün yaxud hər hansı yeni fayla yaxud mövcüd olan fayla mətin yazdırmaq üçün istifadə olunur.
+
+14. nano & vi — Linuxda hazır yüklü olaraq gələn text editorlar. nano bəlli keywordləri rəngli ifadə edən və bir çox dil dəstəyi olan editordur. vi nanodan daha sadədir. test.txt adında fayl yaratmaq istəyirkisə nano text.txt komandasından istifadə edirik. faylı yadda saxlamaq üçün Ctrl+X və Y(əks halda N) edərik.
+
+15. shred- hər hansısa bir faylın geri qaytarılmasını istəmirsinizsə bu komandadan istifadə edə bilərsiniz.
+
+16. clear- terminalı təmizləmək üçün istifadə olunur.
+
+17. sudo — Linuxda çox istifadə olunan komandalardandır . “SuperUser Do” mənasını verir. Əyər komandaları administrator və ya root olaraq yazmaq istəyiriksə istifadə edə bilərik. su komandasını istifadə edə bilməymiz üçün parol təyin etməyimiz lazımdır.
+
+18. whoami- hazırda istifadə olunan istifadəçi adını bildirir.
+
+19. exit- terminaldan çıxış üçün istifadə olunur.
+
+20. wget — internetdən faylları yükləmək üçün istifadə olunur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.nav{
+    background-color: #1b1b1c;  
+    width: 100%;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        .homePage{
+            h1{
+                font-family: "Roboto";
+                font-size: 40px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+        .basketandfav{
+            display: flex;
+            align-items: center;
+            gap: 80px;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

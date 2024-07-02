@@ -1,0 +1,103 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 500px;
+}
+
+.input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.button {
+  background-color: rgb(43, 43, 206);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: #1f2a48;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.leftandright {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+}
+
+.headertxt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lefttxt {
+  text-align: start;
+}
+
+.blueoctocat {
+  color: rgb(43, 43, 206);
+}
+
+.gitImg {
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.mainSection {
+  background-color: #1f2a48;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.bottomtxt {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.bottomresult {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.mainBottom {
+  background-color: #141c2f;
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 220px;
+}
+
+.mainFooter {
+  display: flex;
+}
+
+h5 {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.result {
+  margin: 5px;
+}
+
+.footerLeft {
+  text-align: start;
+}
+
+.footerRight {
+  text-align: start;
+}
+
+.mainFooter {
+  gap: 60px;
+  margin-left: 220px;
+}

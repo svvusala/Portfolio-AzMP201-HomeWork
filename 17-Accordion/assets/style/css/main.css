@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#projects {
+  width: 100%;
+}
+#projects .container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+#projects .container .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects .container .texts h3 {
+  margin-top: 80px;
+  font-family: "Archivo";
+  font-size: 14px;
+  color: #FE7235;
+}
+#projects .container .texts h2 {
+  font-family: "Archivo";
+  font-size: 40px;
+  color: #242E42;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#projects .container .texts p {
+  font-family: "Muli";
+  font-size: 22px;
+  color: #5B617C;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#projects .container .griditems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#projects .container .griditems .picandtxt .zen {
+  font-family: "Archivo";
+  font-size: 28px;
+  color: #242E42;
+}
+#projects .container .griditems .picandtxt p {
+  font-family: "Muli";
+  font-size: 16px;
+  color: #5E7997;
+}
+#projects .container .griditems .picandtxt .sol {
+  font-family: "Archivo";
+  font-size: 16px;
+  color: #FE7235;
+}
+#projects .container .griditems .picandtxt .accordion {
+  max-width: 380px;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems {
+  background-color: white;
+  color: #000000;
+  margin: 10px 0;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems .accordionitemsheader {
+  padding: 20px;
+  border-top: 1px solid rgba(128, 128, 128, 0.327);
+  font-family: "Archivo";
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems .accordionitemsheader::after {
+  content: "+";
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems .accordionitemsheader.active::after {
+  content: "-";
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems .accordionitemsbody {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems .accordionitemsbody .content {
+  padding: 15px;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitems .accordionitemsheader.active + .accordionitemsbody {
+  max-height: 300px;
+}
+#projects .container .griditems .picandtxt .accordion .accordionitemsheader:hover {
+  background-color: #0077FF;
+}
+#projects .container .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url(/17-Accordion/assets/fonts/Archivo_ExtraCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: "Muli";
+  src: url(/17-Accordion/assets/fonts/Mulish-Medium.ttf);
+}
+input, button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+header #form {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+header #taskinput {
+  background-color: #0D6EFD;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+header #taskinput::placeholder {
+  color: rgb(208, 206, 206);
+}
+header #newtasksubmit {
+  color: #0D6EFD;
+  font-size: 25px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.4s;
+}
+header #newtasksubmit:hover {
+  opacity: 0.5;
+}
+header #newtasksubmit:active {
+  opacity: 0.3;
+}
+
+main {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+main .tasklist h2 {
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+main .tasklist #tasks .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f3f58;
+  padding: 10px;
+  border-radius: 15px;
+  width: 800px;
+  margin-bottom: 20px;
+}
+main .tasklist #tasks .task .content .text {
+  color: white;
+  font-size: 20px;
+  display: block;
+  transition: 0.4s;
+}
+main .tasklist #tasks .task .content .text:not(:read-only) {
+  color: rgb(71, 4, 4);
+}
+main .tasklist #tasks .task .actions {
+  display: flex;
+  gap: 20px;
+}
+main .tasklist #tasks .task .actions button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+main .tasklist #tasks .task .actions button:hover {
+  opacity: 0.5;
+}
+main .tasklist #tasks .task .actions button:active {
+  opacity: 0.3;
+}
+main .tasklist #tasks .task .actions .edit {
+  color: green;
+}
+main .tasklist #tasks .task .actions .delete {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

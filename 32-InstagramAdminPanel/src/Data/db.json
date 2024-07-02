@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "gunel",
+      "surname": "ehmedzade",
+      "username": "gnnlw",
+      "email": "gunel@gmail.com",
+      "password": "maddyv0201",
+      "gender": "female",
+      "age": 18,
+      "bio": "Nevermind",
+      "profilePhoto": "https://picsum.photos/seed/1/200/200",
+      "friendsId":[
+        {
+          "friendId":"1",
+          "friendUsername":"@whoishabiba"
+        },
+        {
+          "friendId":"2",
+          "friendUsername":"@madinaa"
+        }
+      ],
+      "messageId":[
+        {
+          "messageId":"1",
+          "messageUsername":"@elyar"
+        },
+        {
+          "messageId":"3",
+          "messageUsername":"@laman"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "vusala",
+      "surname": "salimova",
+      "username": "svvusala",
+      "email": "vusala@gmail.com",
+      "password": "2004v1984",
+      "gender": "female",
+      "age": 19,
+      "bio": "Busy",
+      "profilePhoto": "https://picsum.photos/seed/2/200/200",
+      "friendsId":[
+        {
+          "friendId":"1",
+          "friendUsername":"@whoishabiba"
+        },
+        {
+          "friendId":"3",
+          "friendUsername":"@xhadija"
+        },
+        {
+          "friendId":"2",
+          "friendUsername":"@madinaa"
+        }
+      ],
+      "messageId":[
+        {
+          "messageId":"1",
+          "messageUsername":"@elyar"
+        },
+        {
+          "messageId":"5",
+          "messageUsername":"@madina"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "habiba",
+      "surname": "balakisiyeva",
+      "username": "whoishabiba",
+      "email": "habiba@gmail.com",
+      "password": "habiba2005",
+      "gender": "female",
+      "age": 17,
+      "bio": "soon or later it is over",
+      "profilePhoto": "https://picsum.photos/seed/3/200/200",
+      "friendsId":[
+        {
+          "friendId":"3",
+          "friendUsername":"@xhadija"
+        },
+        {
+          "friendId":"6",
+          "friendUsername":"@ibrahim"
+        },
+        {
+          "friendId":"7",
+          "friendUsername":"@nargiz"
+        },
+        {
+          "friendId":"8",
+          "friendUsername":"@aydin"
+        }
+      ],
+      "messageId":[
+        {
+          "messageId":"10",
+          "messageUsername":"@firuze"
+        },
+        {
+          "messageId":"3",
+          "messageUsername":"@xhadija"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "shahnaz",
+      "surname": "rustamli",
+      "username": "theshahnaz",
+      "email": "shahnaz@gmail.com",
+      "password": "shahnaz2004",
+      "gender": "female",
+      "age": 20,
+      "bio": "coder",
+      "profilePhoto": "https://picsum.photos/seed/4/200/200",
+      "friendsId":[
+        {
+          "friendId":"11",
+          "friendUsername":"@gulchin"
+        },
+        {
+          "friendId":"12",
+          "friendUsername":"@svvusala"
+        }
+      ],
+      "messageId":[
+        {
+          "messageId":"12",
+          "messageUsername":"@gulchin"
+        },
+        {
+          "messageId":"12",
+          "messageUsername":"@svvusala"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "xedice",
+      "surname": "memmedova",
+      "username": "xhadija",
+      "email": "xedice@gmail.com",
+      "password": "tyler2004",
+      "gender": "female",
+      "age": 19,
+      "bio": "just a human",
+      "profilePhoto": "https://picsum.photos/seed/5/200/200",
+      "friendsId":[
+        {
+          "friendId":"1",
+          "friendUsername":"@whoishabiba"
+        }
+      ],
+      "messageId":[
+        {
+          "messageId":"1",
+          "messageUsername":"@whoishabiba"
+        },
+        {
+          "messageId":"12",
+          "messageUsername":"@svvusala"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "madina",
+      "surname": "behremova",
+      "username": "madinaa",
+      "email": "madina@gmail.com",
+      "password": "madina2006",
+      "gender": "female",
+      "age": 17,
+      "bio": "slayyy",
+      "profilePhoto": "https://picsum.photos/200/300",
+      "friendsId":[
+        {
+          "friendId":"15",
+          "friendUsername":"@gnnlw"
+        }
+      ],
+      "messageId":[
+        {
+          "messageId":"15",
+          "messageUsername":"@whoishabgnnlwiba"
+        },
+        {
+          "messageId":"12",
+          "messageUsername":"@svvusala"
+        }
+      ]
+    }
+
+  ]
+}

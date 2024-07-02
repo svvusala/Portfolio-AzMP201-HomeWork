@@ -1,0 +1,102 @@
+* {
+    font-family: 'Courier New', Courier, monospace; /* butun html taglerini secir ve stil verir */
+    font-size: 22px;
+}
+
+body {
+    background-color: black;      /* body icindeki elementler uzerinde deyisiklikler edir */
+    font-size: 22px;
+    color: white;
+}
+
+h1,h2 {
+    color: red;             /* adini yazdigimiz html tag ne muraciet ederek onun stilini deyisir*/
+    font-size: 22px;
+}
+
+.first {
+    color: aqua;          /* (class) eyni class adli bir qrup tag e muraciet ederek stilini deyisir */
+    font-size: 22px;
+}
+
+#text {
+    font-style: italic;   /* (id) sadece bir tag e mexsus olur ve hemin id e muraciet ederek stilini deyisir */
+    font-size: 22px;
+}
+
+body > h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  /* (child selector) stilini deyismek istediyimiz tag her hansi basqa bir tag ni icindedirse,bu selectordan istifade edirli  */
+    color: grey;
+}
+
+body p {
+    font-size: x-small;  /* (descendant selector) stilini deyismek istediyimi tag ic ice yerleserse */
+}
+
+li ~ li {
+    color:grey   /* (general sibling selector) istediyimiz tag den sonra gelen eyni cur taglerin stilini deyismek ucun */
+}
+
+h1 + h3 {
+    font-style: italic;  /* (Adjacent sibling selector) istediyimiz tag den sonra gelen tag in stilini deyisir */
+}
+
+li:hover {
+    background-color:blue;
+}
+
+input:focus {
+    background-color: rgb(0, 255, 4);
+}
+
+input:required {
+    background-color: blue;
+}
+
+input:disabled {
+    background-color: rgb(243, 13, 13);
+}
+
+li:first-child {
+    background-color: blue;
+}
+
+li:nth-child(3) {
+    color: bisque;
+}
+
+span:first-of-type {
+    background-color: blueviolet;
+}
+
+li:not(.blue) {
+    background-color: rgba(17, 214, 63, 0.853);
+}
+
+div.div::before {
+    content: "Before";
+    background-color: gray;
+}
+
+div.div::after {
+    content: "After";
+    background-color: rgb(223, 92, 31);
+}
+
+[data-vusala] {
+    font-size: larger;
+}
+
+::selection {
+    background-color: cornflowerblue;
+    color: chartreuse;
+}
+
+li::marker {
+    color: rgb(239, 248, 76);
+}
+
+a[href="#"] {
+    color: rgb(184, 95, 125);
+}

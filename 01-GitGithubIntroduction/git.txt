@@ -1,0 +1,59 @@
+1. $git init — bu komanda qovluğu bir Git repository halına gətirir və .git sonluqlu gizli bir qovluq yaradır. Git init komandası qovluğumuzu uzaqdakı bir serverə (GitHub, GitLab, Bitbucket və b.) göndərmək üçün hazır vəziyyətə gətirir.
+
+2. $git config — bu komanda vasitəsi ilə git istifadəçi adı , email əlavə edə bilərik, bunları əlavə etmədən hər hası bir iş gördükdə default olaraq sistemdəki username təyin olunacaqdır:
+
+3. $git config --global user.name “vusalasalimovaa”
+
+4. $git config --global user.email "salimovavusala7@gmail.com"
+
+5. $git status — komandası ilə yaratdığımız faylların gitə əlavə olunub olunmadığına baxa bilərik. Əgər əlavə olunmayıbsa faylın adı qırmızı rənglə yazılı olacaq. Sonra “git add . “ komandası verərək faylları əlavə edə bilərik. Yenidən “git status” komandası versək artıq fallar yaşıl rəngdə yazılacaq.
+
+6. $git add — add komandası hər-hansı bir yeni faylı və ya qovluqdakı bütün faylları əlavə edir, yəni artıq proyektimiz commit –ə hazır olur.
+
+7. $git commit — Commit local maşınımızda baş verən bir prosesidir və uzaq server –dəki reposiroty -ə heç bir təsir göstərmir. Commit vasitəsilə etdiyimiz dəyişikliklər haqqında açıqlamalar qeyd edirik. Commit proyektimizi staging area -dan local repository bölməsinə keçirir.
+
+8. $git diff - commit etdikden sonra olan dəyişiklikləri göstərir.
+
+9. $git clone — komandası ilə local-dakı və ya uzaq serverdəki (GitHub, GitLab, Bitbucket) istəlinən reponu hazırda olduğumuz qovluğa kopyalayır.
+
+10. $git pull — Bu komanda ilə serverdəki repository-də əgər dəyişdirilmiş fayllar varsa, onları local-a yükləyir və faylları yeniləmək üçün repository ilə birləşdirir.
+
+11. $git push —Bu komanda ilə proyektdə etdiyimiz dəyişikləri serverdəki repository-mizə göndəririk.
+
+12. $git log — bu komanda ilə hansı vaxtda hası dəyişiklikləri etdiyimizi görə bilirik.
+
+13. $git checkout [branch_name] - branch' ler arasında keçid edir
+
+14. $git switch [branch_name] - branch'i dəyişmək üçün istifadə olunur.
+
+15. $git clean - izlənilməyən faylları silir.
+
+16. $git version - versiyasını yoxlayır.
+
+17. $git help <verb> , git <verb> --help - hansısa komandayla bağlı köməyə ehtiyac olduqda itifadə olunur. Məsələn git config --help - config'lə nələr edə biləcəyimizi göstərir. 
+
+18. $git branch - hansı branch'lerin olduğunu və hal hazırda hansı branchdeyiksə həmin branch'in qabağında ulduz işsarəsi olur və yaşıl rəngdə olur. Yeni bir branch yaratmaq istəyiriksə git brach (və yaradacağımız branch'in adı
+
+19. $git merge - iki branch'i birləşdirmək üçün istifadə olunur.
+
+20. $git rm -r [file-name.txt] - fayl yaxud folder silmək üçün istifadə olunur.
+
+21. $git mv - fayl adını dəyişmək üçün istifadə olunur. Həmçinin faylı yerini dəyişmək üçün də istifadə olunur.
+
+22. $git checkout -- <file> - etdiyimiz dəyişiklikləri geri almaq üçün istifadə olunur. Məsələn hər hansı text faylında sildiyimiz mətni geri gətirə bilərik.
+
+23. $git remote - istifadəçiyə uzaq qovluğa qoşulmağa imkan verir.
+
+24. $git stash - Üzərində işlənilən son halına çatmamış faylları müvvəqəti olaraq yadda saxlayır.
+
+25. $git show - hər hansı git komandası haqqında məlumat görmək üçün.
+
+26. $git tag - Bu əmr müəyyən edilmiş prosesə etiket vermək üçün istifadə olunur.
+
+27. $git reset - You can use git reset to rewind history without changing the contents of your local files
+
+28. $git revert - mövcud olan commitləri geri qaytarır.
+
+29. $git fetch [remote_name] - fetches changes from a remote repository without merging
+
+30. $git clean - izlənilməyən faylları silir.

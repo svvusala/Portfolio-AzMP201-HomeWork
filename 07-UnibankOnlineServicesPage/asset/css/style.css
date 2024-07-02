@@ -1,0 +1,241 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-size: small;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+}
+
+.leftbox {
+    margin-right: 200px;
+    /* border: 2px solid white; */
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+
+.private {
+    border: 2px solid #FF7A00;
+    border-radius: 7px;
+    background-color: #313131;
+    padding: 5px 5px;
+    color: #FF7A00;
+}
+
+.corporate {
+    border: none;
+    border-radius: 7px;
+    background-color: #313131;
+    padding: 5px 5px;
+    margin-right:100px;
+}
+
+.sun  {
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 8px;
+}
+
+.fa-regular.fa-sun {
+    color: black;
+}
+
+.aze {
+    border: none;
+    border-radius: 7px;
+    background-color: #1A1A1A;
+    padding: 8px 8px;
+}
+
+.rus {
+    border: none;
+    border-radius: 7px;
+    background-color: #1A1A1A;
+    padding: 8px 8px;
+}
+
+.glass {
+    border: none;
+    border-radius: 7px;
+    background-color: #1A1A1A;
+    padding: 8px 8px;
+}
+
+
+.rightbox {
+    display: flex;
+}
+
+.pc {
+    display: flex;
+    justify-content: end;
+}
+
+.sarg {
+    display: flex;
+    gap: 5px;
+}
+
+.secondpart {
+    width: 1320;
+    background-color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+}
+
+.left {
+    display: flex;
+    gap: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.end {
+    background-color: rgb(0, 0, 0);
+    height: 1000px;
+}
+
+h2 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 110px;
+    font-family: "Poppins";
+    font-weight: bolder;
+}
+
+.firstrow {
+    width: 300px;
+    height: 200px;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+.secondrow {
+    width: 300px;
+    height: 200px;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+.thirdrow {
+    width: 300px;
+    height: 200px;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+.mainhero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: start;
+    padding-left: 90px;
+}
+
+.fa-solid.fa-mobile {
+    color: #FF6400;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.fa-solid.fa-computer {
+    color: #FF6400;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fa-solid.fa-plane {
+    color: #FF6400;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fa-solid.fa-credit-card {
+    color: #FF6400;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fa-solid.fa-file-pen {
+    color: #FF6400;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-bottom: 10px;
+    font-family: "Poppins";
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: "Poppins";
+    font-size: small;
+}
+
